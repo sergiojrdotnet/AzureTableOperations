@@ -82,6 +82,16 @@ switch (args[0])
 
         break;
     }
+    case "--help":
+        Console.WriteLine("""
+
+            ato <command> [<args>]
+
+                delete    Delete entities from a table.
+                --help    Show help.
+
+        """);
+        break;
     default:
         Console.WriteLine("Unknown command.");
         break;

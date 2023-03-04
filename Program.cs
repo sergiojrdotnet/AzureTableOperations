@@ -50,6 +50,7 @@ switch (args[0])
                             -q, --query <query>                            The query to filter the entities.
                             -b, --batch                                    Delete entities in batches of <page-size>. Default is 100.
                             --page-size <page-size>                        The page size.
+                            --help                                         Show help.
 
                     """);
                     break;

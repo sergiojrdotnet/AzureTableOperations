@@ -12,4 +12,5 @@ ato delete -c <connection-string> -t <table> -q <query> [-b] [--page-size <page-
     -q, --query <query>                            The query to filter the entities.
     -b, --batch                                    Delete entities in batches of <page-size>. Default is 100.
     --page-size <page-size>                        The page size.
+    --help                                         Show help.~~~~
 ```

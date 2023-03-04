@@ -2,11 +2,14 @@
 Execute a table operation.
 
 ## Usage
+
+### Delete entities
 ```
-delete
-    -c, --connection-string     A connection string includes the authentication information required for your application to access data in an Azure Table account at runtime.
-    -t, --table                 The name of the table with which this client instance will interact.
-    -q, --query                 Returns only entities that satisfy the specified OData filter.
-    -b, --batch                 Submits as a batch transaction.
-    --page-size                 The maximum number of results to return per page.
+delete -c <connection-string> -t <table> -q <query> [-b] [--page-size <page-size>]
+
+    -c, --connection-string <connection-string>    The connection string to the storage account.
+    -t, --table <table>                            The table name.
+    -q, --query <query>                            The query to filter the entities.
+    -b, --batch                                    Delete entities in batches of <page-size>. Default is 100.
+    --page-size <page-size>                        The page size.
 ```

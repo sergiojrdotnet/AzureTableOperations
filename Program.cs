@@ -39,6 +39,20 @@ switch (args[0])
                 case "--page-size":
                     pageSize = int.Parse(args[++i]);
                     break;
+                
+                case "--help":
+                    Console.WriteLine("""
+
+                        delete -c <connection-string> -t <table> -q <query> [-b] [--page-size <page-size>]
+
+                            -c, --connection-string <connection-string>    The connection string to the storage account.
+                            -t, --table <table>                            The table name.
+                            -q, --query <query>                            The query to filter the entities.
+                            -b, --batch                                    Delete entities in batches of <page-size>. Default is 100.
+                            --page-size <page-size>                        The page size.
+
+                    """);
+                    break;
 
                 default:
                     Console.WriteLine($"Unknown argument '{args[i]}'.");

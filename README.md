@@ -14,3 +14,7 @@ ato delete -c <connection-string> -t <table> -q <query> [-b] [--page-size <page-
     --page-size <page-size>                        The maximum number of entities that will be returned per page request. Default is 100.
     --help                                         Show help.
 ```
+
+#### Example
+
+![image](https://user-images.githubusercontent.com/72770006/222926803-c0d5bbcb-2e83-457e-a992-11cbb7832899.png)

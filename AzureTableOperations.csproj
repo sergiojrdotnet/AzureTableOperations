@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <AssemblyName>ato</AssemblyName>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <AssemblyVersion>0.1.0</AssemblyVersion>
         <OutputType>Exe</OutputType>
         
         <TargetFramework>net7.0</TargetFramework>

@@ -21,8 +21,8 @@ switch (args[0])
                     connectionString = args[++i];
                     break;
 
-                case "-n":
-                case "--table-name":
+                case "-t":
+                case "--table":
                     tableName = args[++i];
                     break;
 

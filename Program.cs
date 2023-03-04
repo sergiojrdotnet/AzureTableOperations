@@ -43,7 +43,7 @@ switch (args[0])
                 case "--help":
                     Console.WriteLine("""
 
-                        delete -c <connection-string> -t <table> -q <query> [-b] [--page-size <page-size>]
+                        ato delete -c <connection-string> -t <table> -q <query> [-b] [--page-size <page-size>]
 
                             -c, --connection-string <connection-string>    The connection string to the storage account.
                             -t, --table <table>                            The table name.

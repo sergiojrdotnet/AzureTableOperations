@@ -10,7 +10,7 @@ ato delete -c <connection-string> -t <table> -q <query> [-b] [--page-size <page-
     -c, --connection-string <connection-string>    The connection string to the storage account.
     -t, --table <table>                            The table name.
     -q, --query <query>                            The OData query to filter the entities.
-    -b, --batch                                    Delete entities in batches of <page-size>. Default is 100.
-    --page-size <page-size>                        The page size.
+    -b, --batch                                    Delete entities in batches of <page-size>.
+    --page-size <page-size>                        The maximum number of entities that will be returned per page request. Default is 100.
     --help                                         Show help.
 ```
